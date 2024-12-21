@@ -1,10 +1,12 @@
-
 import './App.css';
+import Carousel from './components/Carousel/Carousel';
+import CarouselData from "./data/CarouselData.json"
+
 
 function App() {
   return (
     <div className="App">
-     hello world
+     <Carousel data={CarouselData.slides}/>
     </div>
   );
 }
