@@ -11,4 +11,32 @@
 .cardBody img {
     height: 12rem;
     width: 100%;
+    object-fit: cover;
+}
+
+.cardBody h2, p {
+    padding: 0 1rem;
+}
+
+button{
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid red;
+    color: red;
+    background: transparent;
+    border-radius: 1rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+
+}
+
+.card:hover{
+    transform: scale(1.02);
+
+}
+
+.card:hover button{
+    background: red;
+    color: white;
 }
