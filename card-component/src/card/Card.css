@@ -1,0 +1,14 @@
+.card{
+    overflow: hidden;
+    box-shadow: 0px 2px 20px grey;
+    border-radius: 2rem solid grey;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+
+.cardBody img {
+    height: 12rem;
+    width: 100%;
+}
