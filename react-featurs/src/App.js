@@ -1,5 +1,6 @@
 
 import './App.css';
+import LetterEffect from './LetterEffect/LetterEffect';
 import TypeEffect from './TypeEffect/TypeEffect';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
 
       <TypeEffect/>
+      <LetterEffect/>
       
     </div>
   );
