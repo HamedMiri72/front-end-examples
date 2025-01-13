@@ -1,6 +1,8 @@
 
 import './App.css';
 import LetterEffect from './LetterEffect/LetterEffect';
+import ListEffect from './ListEffect/ListEffect';
+import NotifEffect from './NotifEffect/NotifEffect';
 import TypeEffect from './TypeEffect/TypeEffect';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
 
       <TypeEffect/>
       <LetterEffect/>
+      <ListEffect/>
+      <NotifEffect/>
       
     </div>
   );

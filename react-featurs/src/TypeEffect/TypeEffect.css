@@ -10,3 +10,10 @@ button{
     text-align: center;
 
 }
+
+p{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
